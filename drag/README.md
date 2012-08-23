@@ -48,7 +48,12 @@ It will move object by `drag` method.
 ### Secondary Param
 
 * `onDrag` - When user drag the block, it will be called.
+  * `event` - jQuery mousemove event
+  * `object` - Block Object
+  * `offset` - A object include offset when user click block, use for fix object drag position.
 * `release` - When user release blokc, it will be called.
+  * `event`
+  * `object`
 
 # Method
 
