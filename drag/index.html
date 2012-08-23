@@ -50,13 +50,13 @@
         }
       });
 
-      jQuery(document).mousedown(function (event) {
+      jQuery('#drag').mousedown(function (event) {
           jQuery('#mousedown').removeClass('alert').addClass('success').text('true');
       });
-      jQuery(document).mouseup(function (event) {
+      jQuery('#drag').mouseup(function (event) {
           jQuery('#mousedown').removeClass('success').addClass('alert').text('false');
       });
-      jQuery(document).mousemove(function (event) {
+      jQuery('#drag').mousemove(function (event) {
           jQuery('#canvasxy').text(event.offsetX + ',' + event.offsetY);
       });
   </script>
