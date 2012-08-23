@@ -50,7 +50,9 @@ It will bind `mouse move` event, and check is mouse hover rect. If hover on it, 
 
 * `render` - Start redner content object.
 * `fillRect` - Create a block and fill color.
+  * `options`
 
 ## fillRect hover&hoverOut callback object
 
 * `setColor` - Change object color.
+  * `color`
